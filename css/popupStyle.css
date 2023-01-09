@@ -1,0 +1,54 @@
+.text {
+    color: var(--textColor);
+    font-size: 15px;
+    user-select: none;
+}
+
+.input {
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: var(--inputBorderColor);
+    border-style: solid;
+    color: var(--textColor);
+    background-color: var(--inputBg);
+    outline: none;
+}
+
+.input:focus {
+    border-color: var(--inputFocusBorderColor);
+    background-color: var(--inputFocusBgColor);
+}
+
+.input::-webkit-input-placeholder {
+    color: var(--inputPlaceholderColor);
+    font-size: 15px;
+}
+
+.input:focus::-webkit-input-placeholder {
+    color: var(--inputFocusPlaceholderColor);
+}
+
+.btn {
+    font-family: "Microsoft Yahei";
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: var(--btnBorderColor);
+    border-style: solid;
+    background-color: var(--btnBg);
+    color: var(--btnTextColor);
+    outline: none;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: var(--btnHoverBg);
+}
+
+.btn:active {
+    color: var(--btnActiveTextColor);
+    background-color: var(--btnActiveBg);
+}

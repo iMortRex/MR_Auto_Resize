@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/mainStyle.css">
+    <link rel="stylesheet" href="./css/popupStyle.css">
+
+    <title>MR</title>
+</head>
+
+<body>
+    <div id="main" style="width: auto; height: auto;">
+        <label for="input" id="sizeNotification" class="text" style="padding: 0px 5px 5px 0px;">请输入窗口尺寸(像素)</label>
+        <div class="inputer" style="display: flex; width: auto; height: 30px; margin: 5px 0px 8px 0px;">
+            <input id="width" class="input" type="text" placeholder=" 长"
+                style="width: 50px; height: auto; margin: 0px 8px 0px 0px;">
+            <input id="height" class="input" type="text" placeholder=" 宽"
+                style="width: 50px; height: auto; margin: 0px 8px 0px 0px;">
+            <button type="submit" id="sizeConfirm" class="btn" style="width: 60px; height: auto;">应用</button>
+        </div>
+        <label for="input" id="delayNotification1" class="text"
+            style="padding: 0px 5px 5px 0px;">请输入延迟时间(毫秒)<br /></label>
+        <label for="input" id="delayNotification2" class="text"
+            style="padding: 0px 5px 5px 0px; font-size: 10px; opacity: 0.5;">当开启窗口后服务发生错误或不起作用时请设置延迟</label>
+        <div class="inputer" style="display: flex; width: auto; height: 30px; margin: 5px 0px 8px 0px;">
+            <input id="delay" class="input" type="text" placeholder=" 延迟时间"
+                style="width: 116px; height: auto; margin: 0px 8px 0px 0px;">
+            <button type="submit" id="delayConfirm" class="btn" style="width: 60px; height: auto;">应用</button>
+        </div>
+    </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>

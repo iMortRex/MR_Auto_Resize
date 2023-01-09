@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #242424;
+        --textColor: #ffffff;
+        --inputBg: #787878;
+        --inputBorderColor: #c8c8c8;
+        --inputFocusBgColor: #505050;
+        --inputFocusBorderColor: #ffffff;
+        --inputPlaceholderColor: #969696;
+        --inputFocusPlaceholderColor: #96969600;
+        --btnBg: #14a0ff;
+        --btnHoverBg: #008cfa;
+        --btnActiveBg: #005abe;
+        --btnBorderColor: #ffffff00;
+        --btnTextColor: #ffffff;
+        --btnActiveTextColor: #cfcfcf;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f7f7f7;
+        --textColor: #000000;
+        --inputBg: #e6e6e6;
+        --inputBorderColor: #787878;
+        --inputFocusBgColor: #d2d2d2;
+        --inputFocusBorderColor: #323232;
+        --inputPlaceholderColor: #646464;
+        --inputFocusPlaceholderColor: #64646400;
+        --btnBg: #14a0ff;
+        --btnHoverBg: #008cfa;
+        --btnActiveBg: #005abe;
+        --btnBorderColor: #ffffff00;
+        --btnTextColor: #ffffff;
+        --btnActiveTextColor: #cfcfcf;
+    }
+}
+
+body {
+    background-color: var(--bg);
+}
