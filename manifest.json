@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "自动重设窗口大小",
+    "name": "自动重设窗口大小 MR Auto Resize",
     "description": "每次浏览器启动时自动重设窗口大小到预设值",
     "author": "Mort Rex",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icons": {
         "16": "icons/AutoResizeIcon16.png",
         "32": "icons/AutoResizeIcon32.png",
@@ -15,7 +15,7 @@
     "action": {
         "default_popup": "popup.html"
     },
-    "homepage_url": "https://github.com/iMortRex/MRNewTab",
+    "homepage_url": "https://github.com/iMortRex/MR_Auto_Resize",
     "background": {
         "service_worker": "background.js"
     },
