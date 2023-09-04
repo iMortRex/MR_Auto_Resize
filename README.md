@@ -1,5 +1,9 @@
 # MR Auto Resize 自动重设窗口大小
 
+#### 微软商店版审核通过啦，[点击这里跳转](https://microsoftedge.microsoft.com/addons/detail/%E8%87%AA%E5%8A%A8%E9%87%8D%E8%AE%BE%E7%AA%97%E5%8F%A3%E5%A4%A7%E5%B0%8F-mr-auto-resize/oojmabkhoagnhfpphdkeknnjfaahomie)
+
+---
+
 Chrome扩展，自动重设窗口大小，每次重新打开浏览器或点击应用按钮都会重设窗口大小
 
 由于我使用的Edge浏览器每次重新启动都会改变一点窗口尺寸，故作此扩展，希望能帮到有同样困扰的小伙伴
