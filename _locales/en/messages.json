@@ -1,0 +1,8 @@
+{
+    "extName": {
+        "message": "MR Auto Resize"
+    },
+    "extDescription": {
+        "message": "Automatically resets the window size to the preset value each time the browser starts."
+    }
+}

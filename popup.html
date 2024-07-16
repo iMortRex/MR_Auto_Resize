@@ -14,9 +14,9 @@
     <div id="main" style="width: auto; height: auto;">
         <label for="input" id="sizeNotification" class="text" style="padding: 0px 5px 5px 0px;">请输入窗口尺寸(像素)</label>
         <div class="inputer" style="display: flex; width: auto; height: 30px; margin: 5px 0px 8px 0px;">
-            <input id="width" class="input" type="text" placeholder=" 长"
+            <input id="width" class="input" type="text" placeholder=" 宽"
                 style="width: 50px; height: auto; margin: 0px 8px 0px 0px;">
-            <input id="height" class="input" type="text" placeholder=" 宽"
+            <input id="height" class="input" type="text" placeholder=" 高"
                 style="width: 50px; height: auto; margin: 0px 8px 0px 0px;">
             <button type="submit" id="sizeConfirm" class="btn" style="width: 60px; height: auto;">应用</button>
         </div>
@@ -28,6 +28,19 @@
             <input id="delay" class="input" type="text" placeholder=" 延迟时间"
                 style="width: 116px; height: auto; margin: 0px 8px 0px 0px;">
             <button type="submit" id="delayConfirm" class="btn" style="width: 60px; height: auto;">应用</button>
+        </div>
+        <label for="input" id="keepResizeNotification" class="text" style="padding: 0px 5px 5px 0px;">是否持续重设窗口</label>
+        <div class="inputer" style="display: flex; width: auto; height: 30px; margin: 5px 0px 8px -0.5px;">
+            <button type="submit" id="keepResizeConfirm" class="btn" style="width: 191px; height: auto;">关闭</button>
+        </div>
+        <label for="input" id="keepResizeTimeNotification" class="text"
+            style="padding: 0px 5px 5px 0px;">请输入重设时间(毫秒)<br /></label>
+        <label for="input" id="delayNotification2" class="text"
+            style="padding: 0px 5px 5px 0px; font-size: 10px; opacity: 0.5;">重设时间过短会导致性能占用，请谨慎填写</label>
+        <div class="inputer" style="display: flex; width: auto; height: 30px; margin: 5px 0px 8px 0px;">
+            <input id="keepResizeTime" class="input" type="text" placeholder=" 延迟时间"
+                style="width: 116px; height: auto; margin: 0px 8px 0px 0px;">
+            <button type="submit" id="keepResizeTimeConfirm" class="btn" style="width: 60px; height: auto;">应用</button>
         </div>
     </div>
     <script src="./popup.js"></script>

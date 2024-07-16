@@ -1,0 +1,8 @@
+{
+    "extName": {
+        "message": "MR自动重设窗口大小"
+    },
+    "extDescription": {
+        "message": "每次浏览器启动时自动重设窗口大小到预设值"
+    }
+}
